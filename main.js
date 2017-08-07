@@ -40,7 +40,7 @@ function creaateDetails(profile) {
   <li><span>GitHub URL:</span> <a href=${profile.html_url}>${profile.login}</a></li>
   <li><span>Email:</span> ${profile.email}</li>
   <li><span>Company:</span> ${profile.company}</li>
-  <li><span>Website:</span> ${profile.blog}</li>
+  <li><span>Website:</span> <a href=${profile.blog}>stephen-boynton.wordpress.com</a></li>
   </ul>
   `;
 	main.appendChild(div);

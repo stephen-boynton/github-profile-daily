@@ -60,7 +60,7 @@ main {
 }
 
 .details {
-	flex-basis: 20%;
+	flex-basis: 35%;
 	padding-top: 50px;
 }
 ul {
@@ -76,12 +76,13 @@ ul a {
 }
 .story {
 	padding: 50px 0px 0px 20px;
-	flex-basis: 30%;
+	flex-basis: 40%;
 }
 .story p {
 }
 .pic {
 	padding-top: 125px;
+	margin-left: 50px;
 }
 .pic img {
 	width: 110px;
