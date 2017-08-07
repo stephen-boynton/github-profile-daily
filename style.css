@@ -60,12 +60,13 @@ main {
 }
 
 .details {
-	flex-basis: 30%;
+	flex-basis: 20%;
 	padding-top: 50px;
 }
 ul {
 	list-style: none;
 	line-height: 1.6em;
+	border-right: 2px solid lightgray;
 }
 ul span {
 	color: #7ea7a8;
@@ -74,11 +75,10 @@ ul a {
 	color: black;
 }
 .story {
-	padding-top: 50px;
+	padding: 50px 0px 0px 20px;
 	flex-basis: 30%;
 }
 .story p {
-	border-left: 2px solid gray;
 }
 .pic {
 	padding-top: 125px;
