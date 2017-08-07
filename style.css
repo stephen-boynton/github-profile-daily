@@ -1,0 +1,89 @@
+/*
+font-family: 'Josefin Slab', serif;
+font-family: 'Kreon', serif;
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f3f3f3;
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+	font-size: 60px;
+}
+
+h2 {
+	margin-bottom: 30px;
+	font-family: 'Kreon', serif;
+	font-size: 40px;
+	color: black;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+	font-family: Helvetica, Arial, sans-serif;
+	color: gray;
+}
+
+.title {
+	position: relative;
+	flex-basis: 100%;
+	text-align: center;
+	padding-bottom: 50px;
+	background-color: #1d1d1d;
+	color: white;
+}
+
+.title::after {
+	background: linear-gradient(-45deg, #f3f3f3 16px, transparent 0),
+		linear-gradient(45deg, #f3f3f3 16px, transparent 0);
+	background-position: left-bottom;
+	background-repeat: repeat-x;
+	background-size: 32px 32px;
+	content: " ";
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 32px;
+}
+
+.details {
+	flex-basis: 30%;
+	padding-top: 50px;
+}
+ul {
+	list-style: none;
+	line-height: 1.6em;
+}
+ul span {
+	color: #7ea7a8;
+}
+ul a {
+	color: black;
+}
+.story {
+	padding-top: 50px;
+	flex-basis: 30%;
+}
+.story p {
+	border-left: 2px solid gray;
+}
+.pic {
+	padding-top: 125px;
+}
+.pic img {
+	width: 110px;
+	border-radius: 55px;
+}
